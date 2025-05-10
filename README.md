@@ -18,6 +18,30 @@ A Python script that continuously checks for available Nexus/Global Entry interv
   - `python-dateutil`
   - `playsound`
 
+## Installing Python
+
+Before installing the required packages, you need to have Python installed on your system:
+
+### Windows
+1. Download the latest Python installer from [python.org](https://www.python.org/downloads/)
+2. Run the installer and make sure to check "Add Python to PATH" during installation
+3. Verify installation by opening Command Prompt and typing: `python --version`
+
+### macOS
+1. Option 1: Download from [python.org](https://www.python.org/downloads/)
+   - Run the installer and follow the instructions
+2. Option 2: Using Homebrew (recommended if you have Homebrew installed)
+   - Open Terminal and run: `brew install python`
+3. Verify installation by opening Terminal and typing: `python3 --version`
+
+### Linux
+1. Most Linux distributions come with Python pre-installed
+2. If not, install using your distribution's package manager:
+   - Ubuntu/Debian: `sudo apt update && sudo apt install python3 python3-pip`
+   - Fedora: `sudo dnf install python3 python3-pip`
+   - Arch Linux: `sudo pacman -S python python-pip`
+3. Verify installation by opening Terminal and typing: `python3 --version`
+
 ## Installation
 
 1. Clone this repository or download the `main.py` file
