@@ -25,7 +25,7 @@ Before installing the required packages, you need to have Python installed on yo
 ### Windows
 1. Download the latest Python installer from [python.org](https://www.python.org/downloads/)
 2. Run the installer and make sure to check "Add Python to PATH" during installation
-3. Verify installation by opening Command Prompt and typing: `python --version`
+3. Verify installation by opening Command Prompt / terminal and typing: `python --version`
 
 ### macOS
 1. Option 1: Download from [python.org](https://www.python.org/downloads/)
@@ -44,8 +44,13 @@ Before installing the required packages, you need to have Python installed on yo
 
 ## Installation
 
-1. Clone this repository or download the `main.py` file
+1. Clone this repository or download the repository as a zip and unzip it.
+![Description of the image](downloadzip.png)
+
+
 2. Install the required packages:
+
+(Run these commands on command prompt [windows] / terminal [mac])
 
 ```bash
 # For systems where Python 3 is accessed via 'python3' command:
